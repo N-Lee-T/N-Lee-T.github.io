@@ -4,59 +4,134 @@
 <head>
   <meta charset="utf-8">
   <title>Nathan Thompson</title>
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap & CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  
+  <!-- CSS  -->
   <link rel="stylesheet" href="nt_site_css/new_CSS.css">
+
+  <!-- FontAwesome garbage -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>  
+
 </head>
 
+<header class="top-head p-3 text-white" style="background-color: #114E60">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <div class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <h3>the<span id="colorEmph">Nathan</span>.xyz</h3>
+      </div>
+      <!-- <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Projects</a></li><li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
+      </ul> -->
+    </div>
+  </div>
+</header>
+
 <body>
-  <div class="top-container">
-    <h2 class="top-text"><span class="firstEmph">TheNathan</span>.xyz</h2>
-  </div>
-
-  </div>
-  <div class="middle-container">
-    <div class="skills">
-      <div class="skill-row">
-        <img class="pic2" src="images/NTPETS_BW.png" alt="Nathan with pets">
-        <h3>About me.</h3>
-        <p>Hello! This website is mostly an exercise in practicing HTML and CSS. I might throw in a little Bootstrap soon as well. 
-          Currently I'm learning React and Flask, so I plan to replace this with a Single-Page-Application soon. 
-          <br />
-        </p>
-      </div>
-      <hr />
-      <div class="skill-row">
-
-        <img class="pic1" src="images/utah_1.png" alt="Somewhere in Utah">
-        <h3>Background & Experience.</h3>
-        <p>I've been involved in community planning, affordable housing, and local politics.
-          It's a fun challenge to start to get a handle on the fundamentals of
-          computer science and fullstack development. I look forward to adding more skills here soon!</p>
-          <p>Currently learning: SQL, MongoDB, Bootstrap, Flask, JS, NodeJS, React, French when I have the time.</p>
-      </div>
-      <hr />
-      <div class="skill-row">
-        <img class="pic2" src="images/okra1.png" alt="Okra, with tomatoes in background">
-        <h3>Extracurricular</h3>
-        <p>I travel as much as possible. While at home, I get involved in my community
-          and hobbies. Gardening, biking, hiking, and learning languages are a few of
-          my favorites.
-        </p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch.</h2>
-      <h5>I'd love to hear from you!</h5>
-      <p class="contact-message">You can click to send an email.</p> <br />
-      <p class="contact-message">
-        (If you'd rather not click, it's thomnath@oregonstate.edu)
-      </p>
-      <a class="btn" href="mailto:thomnath@oregonstate.edu">CONTACT ME</a>
+  <section id="title">
+  <div class="container-fluid"> <!-- If Needed Left and Right Padding in 'md' and 'lg' screen means use container class -->
+    <div class="row">
+        <div class="first-para col-lg-8">
+          <h1>At the moment,</h1>
+          <p>This is just placeholder text.
+            My first website is a fun little sandbox I'm using to teach myself a bit
+            about web development, and eventually I'll show a few small projects too. </p>
+            <br>
+            <p>Previously I've been involved in community planning, affordable housing, and local politics. 
+            It's a fun challenge to start to get a handle on the fundamentals of computer science and fullstack development. 
+            I look forward to adding more skills here soon!</p>
+            <br>
+            <p>Currently learning: Bootstrap, Flask, JS, and SQL </p>
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img class="pic2" src="images/wallawa1.png" alt="wallawa mountains">
+        </div>
     </div>
   </div>
+  </section>
+
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4 col-md-1 ">
+        <a href='./about.html'>
+          <div class="boxhover">
+            <h3>About me</h3>
+            <br>
+            <span class="icon"><img class="pic3" src="images/planning1.png" alt="Nathan with pets"></span>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-1 ">
+        <a href='./projects.html'>
+          <div class="boxhover">
+            <h3>Projects</h3>
+            <br>
+            <span class="icon"><img class="pic3" src="images/bee1.png" alt="Nathan with pets"></span>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-1 ">
+        <a href='./contact.html'>
+          <div class="boxhover">
+            <h3>Contact</h3>
+            <br>
+            <span class="icon"><img class="pic3" src="images/dogcanyon1.png" alt="Nathan with pets"></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pictures -->
+
+  <!-- <section id="pictures">
+
+    <div id="pictureCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="slide-image" src="images/carousel_pics/chx1.png" alt="lady-profile">
+        </div>
+        <div class="carousel-item">
+          <img class="slide-image" src="images/carousel_pics/cosmos1.png" alt="lady-profile">
+        </div>
+        <div class="carousel-item">
+          <img class="slide-image" src="images/carousel_pics/mt1.png" alt="lady-profile">
+        </div>
+        <div class="carousel-item">
+          <img class="slide-image" src="images/carousel_pics/okra2.png" alt="lady-profile">
+        </div>
+        <div class="carousel-item">
+          <img class="slide-image" src="images/carousel_pics/prairie1.png" alt="lady-profile">
+        </div>
+        <div class="carousel-item">
+          <img class="slide-image" src="images/carousel_pics/wallawas2.png" alt="lady-profile">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#pictureCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#pictureCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section> -->
+</div>
 
   <div class="bottom-container">
     <a class="links-list" href="https://www.linkedin.com/in/thompsonnl">LinkedIn</a>
