@@ -75,7 +75,7 @@ h6 {
 }
 
 p {
-  font-family: "Arvo";
+  font-family: "Open Sans";
   margin: 0 auto 0 auto;
   line-height: 2;
 
@@ -126,6 +126,10 @@ a:hover {
   text-align: center;
   padding: 5%;
 }
+
+a { 
+  color: inherit; 
+} 
 
 a h3 {
   color: white;
@@ -257,3 +261,41 @@ div h2 {
 .firstEmph {
   color: #39FF14;
 }
+
+/* Contact page  */
+
+#left-col {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* Project page */
+
+.proj-top {
+  padding: 10% 20%;
+  /* max-width: 65%; */
+  align-items: center;
+}
+
+.card-body {
+  align-items: center;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.card-img-top {
+  opacity: 75%;
+  max-width: 75%;
+  align-self: center;
+  padding: 5%;
+}
+
+/* About page  */
+
+.abt-img {
+  opacity: 25%;
+  padding-top: 5%;
+  z-index: -1;
+ }
