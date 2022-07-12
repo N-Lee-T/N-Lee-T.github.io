@@ -98,6 +98,14 @@ a:hover {
   color: black;
 }
 
+table {
+  border-spacing: 5px;
+}
+
+td, th {
+  padding: 15px;
+}
+
 .boxhover {
   padding: 7% 15%;
 }
@@ -294,8 +302,32 @@ div h2 {
 
 /* About page  */
 
+.intro-self {
+  padding: 10%;
+}
+
 .abt-img {
   opacity: 25%;
   padding-top: 5%;
   z-index: -1;
  }
+
+ .desc-self {
+  padding: 10%;
+  text-align: left;
+ }
+
+.desc-self h3 {
+  padding-top: 35%;
+  color:#114E60;
+}
+
+.intro-emp {
+  padding: 10%;
+  text-align: left;
+}
+
+.exp-img {
+  max-width: 95%;
+  padding-left: 5%;
+}
