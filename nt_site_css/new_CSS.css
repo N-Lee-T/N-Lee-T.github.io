@@ -225,12 +225,13 @@ div h2 {
 }
 
 .picture-frame {
-  align-items: center;
+  align-items: center; 
   padding: 5%;
 }
 
 .frame-img {
-  max-width: 15%;
+  padding-top: 10%;
+  max-width: 50%;
 }
 
 .slide-image {
@@ -281,6 +282,12 @@ div h2 {
 }
 
 /* Contact page  */
+
+#connect-row {
+  padding-top: 5%;
+  align-items: baseline;
+  text-align: center;
+}
 
 #left-col {
   padding-top: 3%;
